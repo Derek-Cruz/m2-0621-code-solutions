@@ -1,0 +1,342 @@
+    1  git config --global user.name "Derek-Cruz"
+    2  git config --global user.email "Derekcruz94@gmail.com"
+    3  git config --global --list
+    4  cd ~/repos/m2-0621-code-solutions
+    5  clone https://github.com/Derek-Cruz/m2-0621-code-solutions.git
+    6  git clone https://github.com/Derek-Cruz/m2-0621-code-solutions.git
+    7  cd ~/repos
+    8  cd ~/repos/m2-0621-code-solutions
+    9  git checkout master
+   10  cd ~/repos/m2-0621-code-solutions
+   11  git status
+   12  git@github.com:Derek-Cruz/m2-0621-code-solutions.git
+   13  git clone git@github.com:Derek-Cruz/m2-0621-code-solutions.git
+   14  cd ~/repos
+   15  git clone git@github.com:Derek-Cruz/m2-0621-code-solutions.git
+   16  cd ~/repos/m2-0621-code-solutions
+   17  pwd
+   18  git status
+   19  git switch master
+   20  git branch javascript-custom-methods
+   21  git branch --list
+   22  git switch javascript-custom-methods 
+   23  git status
+   24  pwd
+   25  git status
+   26  git add javascript-custom-methods
+   27  git status
+   28  git commit -m "Completed javascript-custom-methods."
+   29  git push origin javascript-custom-methods 
+   30  git checkout master
+   31  git pull origin master
+   32  git status
+   33  git branch javascript-this
+   34  git branch --list
+   35  git switch javascript-this 
+   36  git status
+   37  git add javascript-this
+   38  git status
+   39  git commit -m "Completed javascript-this."
+   40  git push origin javascript-this
+   41  git checkout master
+   42  git status
+   43  git pull origin master
+   44  cd ~/repos
+   45  cd ~/repos/m2-0621-code-solutions
+   46  git status
+   47  git branch javascript-prototypes
+   48  git branch --list
+   49  git switch javascript-prototypes
+   50  git status
+   51  git add javascript-prototypes
+   52  git status
+   53  git commit -m "Completed javascript-prototypes."
+   54  git push origin javascript-prototypes 
+   55  git checkout master
+   56  git status
+   57  git branch javascript-constructors
+   58  git branch --list
+   59  git switch javascript-constructors 
+   60  git status
+   61  git add javascript-constructors/
+   62  git status
+   63  git commit -m "Completed javascript-constructors."
+   64  git push origin javascript-constructors 
+   65  git checkout master
+   66  git pull origin master
+   67  git status
+   68  git pull origin master
+   69  cd ~/repos/m2-0621-code-solutions
+   70  git status
+   71  git pull origin master
+   72  git status
+   73  git branch javascript-timers
+   74  git branch --list
+   75  git switch javascript-timers
+   76  git status
+   77  git add javascript-timers
+   78  git status
+   79  git commit -m "Completed javascript-timers."
+   80  git push origin javascript-timers
+   81  git checkout master
+   82  git branch --list
+   83  git switch javascript-timers
+   84  git status
+   85  git add javascript-timers
+   86  git status
+   87  git commit -m "Updated code on timeout.js"
+   88  git push origin javascript-timers
+   89  git checkout master
+   90  git status
+   91  git pull origin master
+   92  git status
+   93  git branch javascript-carousel
+   94  git branch --list
+   95  git switch javascript-carousel 
+   96  cd ~/repos/m2-0621-code-solutions
+   97  git status
+   98  git add javascript-carousel
+   99  git status
+  100  git commit -m "Completed javascript-carousel."
+  101  git push origin javascript-carousel 
+  102  git checkout master
+  103  git status
+  104  git pull origin master
+  105  cd ~/repos
+  106  https://github.com/Derek-Cruz/driving-game.git
+  107  git@github.com:Derek-Cruz/driving-game.git
+  108  git clone https://github.com/Derek-Cruz/driving-game.git
+  109  git status
+  110  cd ~/repos/driving-game/
+  111  git status
+  112  cd ~/repos/driving-game/
+  113  git branch driving-game-issue-1
+  114  git branch --list
+  115  git switch driving-game-issue-1 
+  116  git status
+  117  git add index.html
+  118  git add main.js
+  119  git add style.css
+  120  git status
+  121  git commit -m "Added code for first issue, getting review. #1"
+  122  git push origin driving-game-issue-1 
+  123  git remote set-url origin git@github.com:Derek-Cruz/driving-game.git
+  124  git status
+  125  git checkout master
+  126  git status
+  127  git remote set-url origin git@github.com:Derek-Cruz/driving-game.git
+  128  git branch --list
+  129  git switch driving-game-issue-1 
+  130  git status
+  131  git add index.html
+  132  git add style.css
+  133  git status
+  134  git commit -m "Added code for issue 1 getting review. #1"
+  135  git push origin driving-game-issue-1 
+  136  git checkout master
+  137  git status
+  138  git pull origin master
+  139  git branch driving-game-issue-2
+  140  git branch --list
+  141  git switch driving-game-issue-2
+  142  git status
+  143  cd ~/repos/driving-game/
+  144  git status
+  145  git add index.html
+  146  git add main.js
+  147  git add style.css
+  148  git status
+  149  git commit -m "Added code for issue 2, getting review. #1"
+  150  git push origin driving-game-issue-2
+  151  git checkout master
+  152  cd ~/repos/driving-game/
+  153  git status
+  154  git pull origin driving-game-issue-2
+  155  cd ~/repos/m2-0621-code-solutions/
+  156  git status
+  157  git branch http-messages
+  158  git branch --list
+  159  git switch http-messages 
+  160  http http://www.example.com
+  161  http --verbose http://www.example.com
+  162  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+  163  http --body GET https://example.com > index.html
+  164  git status
+  165  git add http-messages
+  166  git status
+  167  git commit -m "Completed http-messages."
+  168  git push origin http-messages 
+  169  git checkout master
+  170  git pull origin master
+  171  git status
+  172  git branch javascript-ajax
+  173  git branch --list
+  174  git switch javascript-ajax
+  175  git status
+  176  git checkout master
+  177  cd ~/repos
+  178  cd ~/repos/driving-game
+  179  git status
+  180  git branch driving-game-issue-3
+  181  git branch --list
+  182  git switch driving-game-issue-3
+  183  git status
+  184  git add main.js
+  185  git status
+  186  git commit -m "Added code for moving car a little. #3"
+  187  git push origin driving-game-issue-3
+  188  cd ~/repos/driving-game/
+  189  git checkout master
+  190  git status
+  191  git pull origin master
+  192  git branch driving-game-issue-4
+  193  git branch --list
+  194  git switch driving-game-issue-4
+  195  git status
+  196  git add main.js
+  197  git status
+  198  git commit -m "Added code to stop the car, getting review. #4"
+  199  git push origin driving-game-issue-4
+  200  git checkout master
+  201  git status
+  202  git branch driving-game-issue-5
+  203  git branch --list
+  204  git switch driving-game-issue-5
+  205  git status
+  206  git checkout master
+  207  git pull origin master
+  208  git switch driving-game-issue-5
+  209  git status
+  210  cd ~/repos
+  211  git switch driving-game
+  212  cd ~/repos/driving-game/
+  213  git status
+  214  git add main.js
+  215  git add style.css
+  216  git status
+  217  git commit -m "Completed driving game, getting final review. #5"
+  218  git push origin driving-game-issue-5
+  219  cd ~/repos/driving-game/
+  220  git checkout master
+  221  git status
+  222  git pull origin master
+  223  http https://magicthegathering.io/
+  224  http https://api.magicthegathering.io/v1/cards 
+  225  cd ~/repos
+  226  git clone git@github.com:Derek-Cruz/ajax-project.git
+  227  cd ajax-project/
+  228  npm ci
+  229  git branch issue-1-user-can-make-decklist
+  230  git list--
+  231  git --list
+  232  git branch --list
+  233  git switch issue-1-user-can-make-decklist 
+  234  cd ~/repos
+  235  git status
+  236  cd ~/repos/m2-0621-code-solutions/
+  237  git status
+  238  git branch --list
+  239  git branch es6-arrow-functions
+  240  git branch --list
+  241  git switch es6-arrow-functions 
+  242  git status
+  243  git add es6-arrow-functions/
+  244  git status
+  245  git commit -m "Completed es6-arrow-function."
+  246  git push origin es6-arrow-functions 
+  247  git checkout master
+  248  git status
+  249  git branch command-line-basics
+  250  git branch --list
+  251  git switch command-line-basics 
+  252  git checkout master
+  253  git status
+  254  git pull origin master
+  255  git switch command-line-basics 
+  256  git checkout master
+  257  git status
+  258  git switch command-line-basics 
+  259  git master
+  260  git checkout master
+  261  cd command-line-basics/
+  262  pwd
+  263  cd
+  264  cd ~/repos/m2-0621-code-solutions/
+  265  cd command-line-basics
+  266  pwd
+  267  git switch command-line-basics 
+  268  man man
+  269  man cat
+  270  cat laziness.txt
+  271  cat impatience.txt
+  272  cat hubris.txt
+  273  cat
+  274  cd ~/repos
+  275  m2-0621-code-solutions/
+  276  cd ~/repos/m2-0621-code-solutions/
+  277  man cat
+  278  cat laziness.txt
+  279  cat three-virtues.txt 
+  280  git checkout master
+  281  cd command-line-basics/
+  282  pwd
+  283  man man
+  284  man cat
+  285  cat three-virtues.txt
+  286  cat laziness.txt
+  287  cat impatience.txt
+  288  cat hubris.txt
+  289  man cat
+  290  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  291  cat three-virtues.txt
+  292  man ls
+  293  ls
+  294  ls -a
+  295  ls -F
+  296  ls -a -F
+  297  ls -aF lfz-staff > lfz-staff/contents.txt
+  298  cat lfz-staff/contents.txt
+  299  man pwd
+  300  pwd
+  301  pwd > i-was-here.txt
+  302  ls i-was-here.txt
+  303  cat i-was-here.txt
+  304  man echo
+  305  echo 'Hello, World!'
+  306  echo 'Hello, World!' > hello.txt
+  307  ls
+  308  cat hello.txt
+  309  man touch
+  310  touch tag-youre-it.txt
+  311  touch snoot/ > boop.txt
+  312  ls snoot/
+  313  man touch
+  314  touch boop.txt > snoot/
+  315  touch snoot/
+  316  touch snoot/boop.txt
+  317  ls snoot/
+  318  ls
+  319  man mkdir
+  320  mkdir parent
+  321  ls
+  322  mkdir -p parent/child/grandchild
+  323  ls
+  324  touch parent/child/grandchild/.gitkeep
+  325  ls -a parent/child/grandchild/
+  326  man mv
+  327  mv pokiemans/ pokemon
+  328  ls
+  329  man rm
+  330  rm lol.txt
+  331  ls
+  332  rm -r kill-me/
+  333  ls
+  334  man cp
+  335  cp and-then.txt no-and-then.txt
+  336  ls
+  337  cat and-then.txt
+  338  cat no-and-then.txt
+  339  man cat
+  340  man history
+  341  history
+  342  history > command-history.txt
