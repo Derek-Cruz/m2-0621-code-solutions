@@ -13,7 +13,7 @@ if (argvCommand === 'read') {
 } else if (argvCommand === 'delete') {
   delete JSONdata.notes[argvThird];
 } else if (argvCommand === 'update') {
-  JSONdata.notes[argvThird] = process.argv[4];
+  JSONdata.notes[[argvThird]] = process.argv[4];
 }
 
 const newData = JSON.stringify(JSONdata, null, 2);
